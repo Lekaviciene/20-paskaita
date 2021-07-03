@@ -38,8 +38,7 @@
 
         //Sukeisti skaicius1 ir skaicius2 reikšmes vietomis, pasinaudojant laikinuoju kintamuoju.
 
-        var a,b,c,d,e;
-        
+        var a,b,c,d,e;        
         a = 2;
         b = 4;
         c = 5;
@@ -48,6 +47,18 @@
         a = b; 
         b = e;               
         console.log("1 ir 2 sukeisti vietomis" + a,b,c,d);
+
+        //Sukeisti skaicius3 ir skaicius4 reikšmes vietomis be laikinojo kintamojo.
+        var masyvas = [a,b,c,d];
+        a = 2;
+        b = 4;
+        c = 5;
+        d = 9;
+        [c,d] = [d,c];        
+        console.log("3 ir 4 sukeisti vietomis" + a,b,c,d)
+        
+        
+
 
 
     
